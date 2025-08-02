@@ -1,5 +1,7 @@
 # 🐞 Bug Report: S9P-10
 
+**[Link](https://carmitdwayne-1739119879743.atlassian.net/browse/S9P-10)** to view in Jira
+
 **Title:**  
 When using the DELETE method **"Removing a Courier"** endpoint (`/api/v1/courier/:id`), with response code: `HTTP/1.1 200 OK { ok: true }` and **no "id" parameter**, the incorrect error message is displayed.
 
