@@ -5,20 +5,16 @@
 **Title:**  
 *When using the DELETE method **"Removing a Courier"** endpoint (`/api/v1/courier/:id`), with response code: `HTTP/1.1 200 OK { ok: true }` and **no "id" parameter**, the incorrect error message is displayed.*
 
----
 
-**Created:**  *08/Mar/2025*<br>
-**Updated:** *08/Mar/2025*<br>
-**Status:**   				*To Do*<br> 
-**Type:**     				*Bug*  
-**Project:**					*Sprint 9 Project*  
-**Priority:** 				*Medium*<br>
-**Reporter:** 				*Dwayne Brown*  
-**Assignee:** 				*Unassigned* <br>
-**Resolution:** 			*Unresolved*  
-**Components:** 			*None*<br>
-**Affects Versions:** *None*<br> 
-**Fix Versions:** 		*None*<br>
+|    |    |    |
+|---------------------------------------|---------------------|----|
+| **Created:**  *08/Mar/2025*<br> |      |  **Assignee:** *Unassigned* <br> |
+| **Updated:** *08/Mar/2025*<br>   |    | **Resolution:** 			*Unresolved* |
+| **Status:**   			*To Do*<br>   |    | **Components:** 			*None*<br> |
+| **Type:**     	  	   		*Bug*  |    | **Affects Versions:** *None*<br>  |
+| **Project:** *Sprint 9 Project*  |    | **Affects Versions:** *None*<br> |
+| **Priority:**  		*Medium*<br>   |   | **Fix Versions:** 		*None*<br> |
+| **Reporter:**		*Dwayne Brown*    |    
 
 ---
 
@@ -41,3 +37,9 @@ HTTP/1.1 400 Bad Request
 HTTP/1.1 404 Not Found
 { "message": "Not Found."} 
 ```
+## 💻 Environment
+**OS:** *Windows 10 Home 22H2*<br>
+**Remote Server:** *username@containerhub.tripleten-services.com*<br>
+**Port:** *4554*<br>
+**Database:** *PostgreSQL 15.2*<br>
+**API Client:** *Postman (Web version)*<br>
