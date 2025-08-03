@@ -28,8 +28,8 @@
 4. Leave field blank and click the “Next” button at the bottom of the screen.
 
 ### **Expected Result:**  
-The error message highlighted in red **<font color="red">"Enter a valid phone
-number"</font>** should be displayed
+The error message highlighted in red **"Enter a valid phone
+number"** should be displayed
 
 ### **Actual Result:**  
 The error message: ***"Enter a valid number"*** is displayed
