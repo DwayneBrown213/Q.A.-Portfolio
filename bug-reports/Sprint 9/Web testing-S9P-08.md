@@ -36,6 +36,7 @@ The error message: ***"Enter a valid number"*** is displayed
 
 ## 💻 Environment
 **OS:** *Windows 10 Home 22H2*<br>
-**Browser:** *Chrome Version 133.0*<br>
-*Opera One Version: 116.0 (Chromium version:131.0)*
+**Browsers:** 
+- *Chrome Version 133.0*<br>
+- *Opera One Version: 116.0 (Chromium version:131.0)*
 
