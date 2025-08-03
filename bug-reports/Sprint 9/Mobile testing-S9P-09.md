@@ -19,7 +19,9 @@
 ## 📝 Description
 
 ### **Precondition:**  
- Logged in to the app as a courier; An order is accepted and exists in the "My orders" tab; the device’s internet is turned off.
+- Logged in to the app as a courier;
+- An order is accepted and exists in the "My orders" tab;
+- The device’s internet is turned off.
 
 ### **Steps to Reproduce:**
 1. Download and install Urban Scooter mobile app APK.
@@ -29,8 +31,7 @@
 5. Login as courier on the app.
 6. Accept the order that was created from the “All orders” list.
 7. Set the device's wifi and data internet off.
-  Expected results: "No Internet Access"- pop-up is displayed.
-  Actual results: Notification not displayed.
+
 
 
 ### **Expected Result:**  
