@@ -1,4 +1,4 @@
-# 🐞 Bug Report: S9P-7
+# 🐞 Bug Report: S9P-6
 **[Link](https://carmitdwayne-1739119879743.atlassian.net/browse/S9P-6)** to view in Jira
 
 **Title:**<br>
