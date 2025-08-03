@@ -39,3 +39,12 @@
 ### **Actual Result:**  
 *Notification not displayed.*
 
+## 💻 Environment
+**OS:** *Windows 10 Home 22H2*<br>
+**Remote Server:** *username@containerhub.tripleten-services.com*<br>
+**Port:** *4554*<br>
+**Mobile App:** *Urban Scooter apk  version 1.0*<br>
+**Emulator:** *Android Studio Ladybug | 2024.2.1
+               Build #AI-242.21829.142.2421.12409432, built on September 24, 2024*
+**API Client:** *Postman (Web version)*<br>
+
