@@ -36,7 +36,6 @@ The error message: ***"Enter a valid number"*** is displayed
 
 ## 💻 Environment
 **OS:** *Windows 10 Home 22H2*<br>
-**Remote Server:** *username@containerhub.tripleten-services.com*<br>
-**Port:** *4554*<br>
-**Database:** *PostgreSQL 15.2*<br>
-**API Client:** *Postman (Web version)*<br>
+**Browser:** *Chrome Version 133.0*<br>
+*Opera One Version: 116.0 (Chromium version:131.0)*
+
