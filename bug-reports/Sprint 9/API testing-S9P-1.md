@@ -4,20 +4,15 @@
 **Title:**<br>
 *When using the DELETE method "Removing a Courier" endpoint(/api/v1/courier/:id, with response code: HTTP/1.1 200 OK { ok: true }), it doesn't remove associated Orders from the database.*
 
----
-
-**Created:**  *09/Feb/25*<br>
-**Updated:** *08/Mar/2025*<br>
-**Status:**   				*To Do*<br> 
-**Type:**     				*Bug*  
-**Project:**					*Sprint 9 Project*  
-**Priority:** 				*Medium*<br>
-**Reporter:** 				*Dwayne Brown*  
-**Assignee:** 				*Unassigned* <br>
-**Resolution:** 			*Unresolved*  
-**Components:** 			*None*<br>
-**Affects Versions:** *None*<br> 
-**Fix Versions:** 		*None*<br>
+|    |    |    |
+|---------------------------------------|---------------------|----|
+| **Created:**  *09/Feb/2025*<br> |      |  **Assignee:** *Unassigned* <br> |
+| **Updated:** *08/Mar/2025*<br>   |    | **Resolution:** 			*Unresolved* |
+| **Status:**   			*To Do*<br>   |    | **Components:** 			*None*<br> |
+| **Type:**     	  	   		*Bug*  |    | **Affects Versions:** *None*<br>  |
+| **Project:** *Sprint 9 Project*  |    | **Affects Versions:** *None*<br> |
+| **Priority:**  		*Medium*<br>   |   | **Fix Versions:** 		*None*<br> |
+| **Reporter:**		*Dwayne Brown*    |   
 
 ---
 
