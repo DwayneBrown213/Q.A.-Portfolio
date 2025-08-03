@@ -45,6 +45,6 @@
 **Port:** *4554*<br>
 **Mobile App:** *Urban Scooter apk  version 1.0*<br>
 **Emulator:** *Android Studio Ladybug | 2024.2.1
-               Build #AI-242.21829.142.2421.12409432, built on September 24, 2024*
-**API Client:** *Postman (Web version)*<br>
+               Build #AI-242.21829.142.2421.12409432, built on September 24, 2024*<br>
+**API Client:** *Postman (Web version)*
 
