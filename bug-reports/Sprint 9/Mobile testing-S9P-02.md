@@ -1,13 +1,13 @@
 # 🐞 Bug Report: S9P-09
-**[Link](https://carmitdwayne-1739119879743.atlassian.net/browse/S9P-9)** to view in Jira
+**[Link](https://carmitdwayne-1739119879743.atlassian.net/browse/S9P-2)** to view in Jira
 
 **Title:**<br>
-*When the is no internet and certain active button are pressed, the "No Internet access" notification is not displayed.*
+*When 2hrs are left to complete the order, no notification is displayed on the moblie app.*
 
 |    |    |    |
 |---------------------------------------|---------------------|----|
-| **Created:**  *07/Mar/25*<br> |      |  **Assignee:** *Unassigned* <br> |
-| **Updated:** *07/Mar/25*<br>   |    | **Resolution:** 			*Unresolved* |
+| **Created:**  *12/Feb/25*<br> |      |  **Assignee:** *Unassigned* <br> |
+| **Updated:** *12/Feb/25*<br>   |    | **Resolution:** 			*Unresolved* |
 | **Status:**   			*To Do*<br>   |    | **Components:** 			*None*<br> |
 | **Type:**     	  	   		*Bug*  |    | **Affects Versions:** *None*<br>  |
 | **Project:** *Sprint 9 Project*  |    | **Affects Versions:** *None*<br> |
@@ -19,22 +19,22 @@
 ## 📝 Description
 
 ### **Precondition:**  
- Logged in to the app as a courier; An order is accepted and exists in the "My orders" tab; the device’s internet is turned off.
-
+   - Logged in to the app as a courier;
+   - An order is accepted and exists in the "My orders" tab;
+   - Device's time is set to after 9:59pm.
 ### **Steps to Reproduce:**
 1. Download and install Urban Scooter mobile app APK.
 2. Create courier login with a POST request using URL + /api/v1/courier, and valid request body.
 3. Create an order with a POST request using URL + /api/v1/orders, and valid request body.
-4. Configure the mobile app to interact with the backend, by clicking the "?" icon in the lower-right corner of the home screen, and entering a valid URL to the API.
-5. Login as courier on the app.
-6. Accept the order that was created from the “All orders” list.
-7. Set the device's wifi and data internet off.
-  Expected results: "No Internet Access"- pop-up is displayed.
-  Actual results: Notification not displayed.
+4. Set the devices time to a few minutes after 9:59pm.
+5. Configure the mobile app to interact with the backend, by clicking the "?" icon in the lower-right corner of the home screen, and entering a valid URL to the API.
+6. Login as courier on the app.
+7. Accept the order that was created from the “All orders” list.
+
 
 
 ### **Expected Result:**  
-***"No Internet Access"***  - pop-up is displayed.
+***"2 hours until the end of the order"***  - notification is displayed.
 
 ### **Actual Result:**  
 *Notification not displayed.*
