@@ -43,3 +43,10 @@ HTTP/1.1 200 OK
 { ok: true } 
 ```
 The courier info is delete from couriers table but associated orders still remain in Orders table.
+
+## 💻 Environment
+**OS:** *Windows 10 Home 22H2*<br>
+**Remote Server:** *username@containerhub.tripleten-services.com*<br>
+**Port:** *4554*<br>
+**Database:** *PostgreSQL 15.2*<br>
+**API Client:** *Postman (Web version)*<br>
