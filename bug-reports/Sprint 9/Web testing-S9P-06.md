@@ -2,7 +2,7 @@
 **[Link](https://carmitdwayne-1739119879743.atlassian.net/browse/S9P-6)** to view in Jira
 
 **Title:**<br>
-*The 10 characters are not accepted in the Phone field.*
+*When entering invalid data into the Address field of the "About Customer” form, the wrong error message is displayed.*
 
 |    |    |    |
 |---------------------------------------|---------------------|----|
