@@ -6,7 +6,7 @@ Welcome to my Quality Assurance portfolio. This repository showcases projects an
 
 - 🔍 [Manual Testing](./manual-testing/)
 - 🤖 [Automation Testing](./automation-testing/)
-- 🌐 [API Testing](API testing)
+- 🌐 [API Testing](API%20testing)
 - 📱 [Mobile Testing](./mobile-testing/)
 - 🚀 [Performance Testing](./performance-testing/)
 
