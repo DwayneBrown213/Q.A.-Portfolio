@@ -1,0 +1,27 @@
+// This file contains test cases for post handlers
+
+const request = require('supertest');
+const app = require('../app');
+
+describe('Post Handlers', () => {
+    it('should create a post', async () => {
+        const response = await request(app)
+            .post('/posts')
+            .send({ title: 'Test Post', content: 'This is a test post' });
+        expect(response.statusCode).toBe(201);
+        expect(response.body.title).toBe('Test Post');
+    });
+
+    it('should get all posts', async () => {
+        const response = await request(app)
+            .get('/posts');
+        expect(response.statusCode).toBe(200);
+        expect(response.body).toBeInstanceOf(Array);
+    });
+
+    it('should delete a post', async () => {
+        const response = await request(app)
+            .delete('/posts/1');
+        expect(response.statusCode).toBe(204);
+    });
+});
