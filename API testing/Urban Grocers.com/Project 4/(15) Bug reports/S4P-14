@@ -1,0 +1,36 @@
+# 🐞 Bug Report: S4P-14
+
+**Title:**<br>
+*POST /fast-delivery/v3.1.1/calculate-delivery.xml returns incorrect availability when `deliveryTime` parameter is invalid.*
+
+|    |    |    |
+|---------------------------------------|---------------------|----|
+| **Created:**      *28/May/24*<br> |      |  **Assignee:** *Unassigned* <br> |
+| **Updated:**   *28/May/24*<br>   |    | **Resolution:** 			*Unresolved* |
+| **Status:**    		*To Do*<br>   |    | **Components:** 			*None*<br> |
+| **Type:**     	  	   		*Bug*  |    | **Affects Versions:** *None*<br>  |
+| **Project:** *Sprint 4 Project*  |    | **Fix Versions:** 		*None*<br> |
+| **Priority:**  		*Medium*<br>   |   | **Reporter:**		*Dwayne Brown* |
+
+---
+
+## 📝 Description
+The API returns incorrect delivery availability when the `deliveryTime` parameter is missing.  
+The system should not make the “Fast Delivery” service available if `deliveryTime` is empty.  
+However, the response still marks it as available (`isItPossibleToDeliver="true"`) instead of `"false"`.
+
+### **Precondition:**  
+- Endpoint: `/fast-delivery/v3.1.1/calculate-delivery.xml`  
+- API client such as Postman.
+
+---
+
+### **Steps to Reproduce:**
+1. Send `POST /fast-delivery/v3.1.1/calculate-delivery.xml`.  
+2. Body with **missing `deliveryTime`**:
+   ```xml
+   <InputModel>
+       <productsCount>11</productsCount>
+       <productsWeight>4.5</productsWeight>
+       <deliveryTime></deliveryTime>
+   </InputModel>
